@@ -1,0 +1,16 @@
+.navbar {
+	.logoTitle {
+		color: $branco;
+	}
+	li {
+		a {
+			color: $branco !important;
+			transition: 0.4s;
+			border-bottom: 2px solid transparent;
+			padding-bottom: 2px;
+			&:hover {
+				border-color: $branco;
+			}
+		}
+	}
+}
